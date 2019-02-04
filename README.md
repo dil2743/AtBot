@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+# AtBot
+An Off-road robot that can fallow a particular marker (tag), it can also be controlled manually from remote location.   It is focused on low cost application so it uses ultrasonic sensor instead of Laser sensors to sense its environment  and an RGB camera to track the marker.
+Clone:  1. Genric_JoyStick_ROS-game_pad :https://github.com/dil2743/Genric_JoyStick_ROS-game_pad
+        2. whycon : https://github.com/dil2743/whycon
+        3.AtBot   : https://github.com/dil2743/AtBot
+in your workspace and Faloow this page to setup rosserial so that arduino (any controller can communicate with ros)                 http://wiki.ros.org/rosserial_arduino/Tutorials/Arduino%20IDE%20Setup
+After setting up all above things configure Arduino for genrating ros headerfiles by fallowing above mentioned link.
 
-You can use the [editor on GitHub](https://github.com/dil2743/AtBot/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Now its time upload code in Arduino, dowload the code from https://github.com/dil2743/AtBot/tree/master/atbot_arduino and burn it in your arduino   
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dil2743/AtBot/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+             
