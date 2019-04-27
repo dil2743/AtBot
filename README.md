@@ -1,4 +1,5 @@
-# AtBot
+# AtBot 
+#video link : https://youtu.be/LfvBWIAhsiw
 An Off-road robot that can fallow a particular marker (tag), it can also be controlled manually from remote location.   It is focused on low cost application so it uses ultrasonic sensor instead of Laser sensors to sense its environment  and an RGB camera to track the marker.
 Clone:  1. Genric_JoyStick_ROS-game_pad :https://github.com/dil2743/Genric_JoyStick_ROS-game_pad
         2. whycon : https://github.com/dil2743/whycon
